@@ -1,88 +1,154 @@
-# Módulo 1 — Fundamentos de Python
+# 01 - Introducción a Python
 
-Este módulo introduce los conceptos fundamentales de **Python** necesarios para comenzar a desarrollar scripts orientados a la automatización de tareas en ciberseguridad.
+## Introducción
 
-A lo largo del módulo se estudian los elementos básicos del lenguaje, incluyendo variables, tipos de datos, funciones, estructuras de control y bucles, sentando las bases para desarrollar programas simples y comprender scripts más complejos utilizados en entornos de seguridad informática.
+Python es un lenguaje de programación de propósito general ampliamente utilizado en la automatización de tareas, el análisis de datos, el desarrollo web, la inteligencia artificial y la ciberseguridad.
 
-> **Estado del módulo:** ✅ Completado
+En el ámbito de la ciberseguridad, Python permite desarrollar scripts que automatizan procesos repetitivos, reduciendo el tiempo y el esfuerzo necesarios para realizar tareas operativas.
 
 ---
 
 # Objetivos de aprendizaje
 
-Al finalizar este módulo serás capaz de:
+Al finalizar este tema podrás:
 
-- Comprender qué es Python y por qué se utiliza en ciberseguridad.
-- Identificar los principales tipos de datos del lenguaje.
-- Declarar y utilizar variables.
-- Utilizar funciones básicas como `print()`, `type()` y `range()`.
-- Implementar sentencias condicionales con `if`, `elif` y `else`.
-- Aplicar operadores lógicos para controlar el flujo de un programa.
-- Utilizar bucles `for` y `while` para automatizar tareas repetitivas.
-- Controlar la ejecución de los bucles mediante `break` y `continue`.
-- Comprender la terminología básica utilizada durante el curso.
+- Comprender qué es Python.
+- Identificar por qué Python es utilizado en ciberseguridad.
+- Entender el concepto de programación.
+- Comprender qué es la automatización.
+- Reconocer las herramientas utilizadas para escribir y ejecutar código Python.
 
 ---
 
-# Contenido del módulo
+# ¿Qué es Python?
 
-| Documento | Descripción |
-|-----------|-------------|
-| [01-introduccion-a-python.md](01-introduccion-a-python.md) | Introducción a Python, programación y automatización. |
-| [02-tipos-de-datos.md](02-tipos-de-datos.md) | Tipos de datos fundamentales de Python. |
-| [03-variables.md](03-variables.md) | Variables, asignación, reasignación y errores de tipo. |
-| [04-funciones.md](04-funciones.md) | Funciones básicas: `print()`, `type()` y `range()`. |
-| [05-condicionales.md](05-condicionales.md) | Sentencias `if`, `elif`, `else` y operadores lógicos. |
-| [06-bucles.md](06-bucles.md) | Bucles `for`, `while`, `break` y `continue`. |
-| [07-automatizacion.md](07-automatizacion.md) | Introducción a la automatización con Python aplicada a la ciberseguridad. |
-| [08-glosario.md](08-glosario.md) | Términos y definiciones del módulo. |
-| [09-referencia-python.md](09-referencia-python.md) | Guía rápida de referencia con la sintaxis utilizada durante el módulo. |
+Python es un lenguaje de programación interpretado que permite escribir instrucciones para que una computadora ejecute tareas específicas.
+
+Su sintaxis sencilla facilita el aprendizaje y permite desarrollar programas de manera rápida y legible.
+
+Entre sus principales características destacan:
+
+- Sintaxis clara y fácil de leer.
+- Gran cantidad de bibliotecas disponibles.
+- Multiplataforma.
+- Amplio uso en automatización.
+- Muy utilizado en ciberseguridad.
 
 ---
 
-# Conceptos principales
+# Programación
 
-Durante este módulo se estudian los siguientes temas:
+La programación es el proceso de crear un conjunto de instrucciones que una computadora ejecutará para realizar una tarea determinada.
 
-- Automatización
-- Programación
-- Sintaxis
-- Comentarios
-- Variables
-- Tipos de datos
-- Funciones
-- Datos booleanos
-- Datos enteros
-- Datos flotantes
-- Datos de cadena
-- Listas
-- Tuplas
-- Diccionarios
-- Conjuntos
-- Sentencias condicionales
-- Operadores lógicos
-- Sentencias iterativas
-- Bucles `for`
-- Bucles `while`
-- `break`
-- `continue`
+Estas instrucciones reciben el nombre de **código** y deben escribirse siguiendo la sintaxis del lenguaje de programación.
+
+---
+
+# Automatización
+
+La automatización consiste en utilizar la tecnología para reducir el esfuerzo humano necesario para realizar tareas comunes o repetitivas.
+
+En ciberseguridad esto permite, por ejemplo:
+
+- Analizar grandes cantidades de registros.
+- Revisar configuraciones.
+- Procesar listas de usuarios.
+- Detectar eventos repetitivos.
+- Ejecutar tareas programadas.
+
+La automatización ayuda a disminuir errores manuales y aumentar la eficiencia.
+
+---
+
+# Python en ciberseguridad
+
+Python es uno de los lenguajes más utilizados por los profesionales de ciberseguridad debido a su facilidad para automatizar procesos.
+
+Algunos ejemplos de uso incluyen:
+
+- Automatización de tareas administrativas.
+- Procesamiento de registros (logs).
+- Análisis de datos.
+- Desarrollo de herramientas de seguridad.
+- Creación de scripts para auditorías.
+- Validación de configuraciones.
+
+---
+
+# Cómo se ejecuta Python
+
+El código Python es traducido por un **intérprete**, que ejecuta las instrucciones línea por línea.
+
+El intérprete convierte el código escrito por el programador en instrucciones que la computadora puede ejecutar.
 
 ---
 
 # Herramientas utilizadas
 
-- Python 3
-- Jupyter Notebook
+Durante el curso se utilizan diferentes herramientas para escribir y ejecutar código Python.
+
+## IDE (Integrated Development Environment)
+
+Un IDE proporciona herramientas para facilitar el desarrollo de software, como:
+
+- Editor de código.
+- Resaltado de sintaxis.
+- Autocompletado.
+- Depuración de errores.
+
+Ejemplo utilizado durante el curso:
+
+- Visual Studio Code
+
+---
+
+## Notebook
+
+Un Notebook permite escribir, ejecutar y guardar código en una interfaz interactiva.
+
+Es especialmente útil para aprender y realizar pruebas rápidamente.
+
+Ejemplos:
+
 - Google Colab
-- Visual Studio Code (IDE)
-- Interfaz de línea de comandos (CLI)
+- Jupyter Notebook
 
 ---
 
-# Resultado del módulo
+## Interfaz de línea de comandos (CLI)
 
-Al completar este módulo se adquieren los conocimientos necesarios para comprender la sintaxis básica de Python y desarrollar scripts sencillos que automatizan tareas repetitivas, proporcionando la base para los siguientes módulos del curso.
+La CLI permite interactuar con la computadora mediante comandos de texto.
+
+Muchos scripts de Python pueden ejecutarse directamente desde la terminal.
 
 ---
 
-⬅️ **Volver al repositorio principal:** [README.md](../README.md)
+# Conceptos clave
+
+| Concepto | Descripción |
+|----------|-------------|
+| Python | Lenguaje de programación interpretado. |
+| Programación | Creación de instrucciones para una computadora. |
+| Automatización | Uso de tecnología para reducir tareas manuales. |
+| Intérprete | Programa que ejecuta el código Python línea por línea. |
+| IDE | Entorno de desarrollo para escribir código. |
+| Notebook | Entorno interactivo para ejecutar código. |
+| CLI | Interfaz basada en comandos de texto. |
+
+---
+
+# Puntos clave
+
+- Python es un lenguaje ampliamente utilizado en ciberseguridad.
+- Permite automatizar tareas repetitivas.
+- Su sintaxis es sencilla y fácil de aprender.
+- El código es ejecutado mediante un intérprete.
+- El curso utiliza herramientas como IDE, Notebook y la línea de comandos para desarrollar programas.
+
+---
+
+## Siguiente tema
+
+➡️ **[02 - Tipos de datos](02-tipos-de-datos.md)**
+
+⬅️ **[Volver al índice del módulo](README.md)**
